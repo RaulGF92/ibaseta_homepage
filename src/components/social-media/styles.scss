@@ -1,0 +1,59 @@
+.social-media {
+    margin: auto;
+    min-height: 22vh;
+    
+    &-inner {
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-horizontal {
+            flex: 0.33;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: space-between;
+            font-size: 4rem;
+            color: #B1B1B1;
+
+            svg {
+                flex: 1;
+                opacity: 0.2;
+
+            }
+
+            svg:hover,svg:active {
+                opacity: 1;
+            }
+
+            .fa-facebook:hover {
+                color: #3b5998;
+            }
+            .fa-facebook:active {
+                color: #3b5998;
+            }
+            .fa-flickr:hover {
+                color: #FF0084;
+            }
+            .fa-flickr:active {
+                color: #FF0084;
+            }
+            .fa-youtube:hover {
+                color: #FF0000;
+            }
+            .fa-youtube:active {
+                color: #FF0000;
+            }
+        }
+
+    }
+
+    .separator {
+        flex: 0.33;
+        min-height: 6vh;
+    }
+}

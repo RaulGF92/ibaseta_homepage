@@ -1,28 +1,76 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <home-page></home-page>
+    <main class="main">
+      <social-media />
+      <album></album>
+      <contact-info />
+      <camera-carrousel />
+    </main>
+    <footer-page></footer-page>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/home-page/HomePage'
+import FooterPage from './components/footer-page/FooterPage'
+import Album from './components/album/Album'
+import SocialMedia from './components/social-media/SocialMedia'
+import CameraCarrousel from './components/camera-carrousel/CameraCarrousel'
+import ContactInfo from './components/contact-info/ContactInfo'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HomePage,
+    FooterPage,
+    Album,
+    SocialMedia,
+    CameraCarrousel,
+    ContactInfo
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+:root {
+  --primary-color: white;
+  --secondary-color: #2f2f2f;
+  --thirdy-color: #CFB53B;
 }
+
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: unset;
+}
+
+.home-page {
+  flex: 1;
+  min-height: 95vh;
+  max-height: 95vh;
+  background-color: var(--secondary-color);
+}
+
+.main {
+  background-color: var(--primary-color);
+
+  .social-media {
+    background-color: var(--secondary-color);
+    min-height: 25vh;
+  }
+}
+
+.footer-page {
+  flex: 1;
+  min-height: 200px;
+  max-height: 300px;
+  background-color: var(--secondary-color);
+}
+
 </style>
