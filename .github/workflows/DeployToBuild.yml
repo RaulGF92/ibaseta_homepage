@@ -6,6 +6,9 @@ defaults:
   run:
     working-directory: ./
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
@@ -40,6 +43,6 @@ jobs:
       run: |
           git config --global user.name 'Raúl García Fernández'
           git config --global user.email 'raulgf92@users.noreply.github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git remote set-url --push origin https://your_username:$GITHUB_TOKEN@github.com/${{ github.repository }}
           git commit -am "Automated report"
           git push origin
