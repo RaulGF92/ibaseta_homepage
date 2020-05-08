@@ -1,5 +1,4 @@
 module.exports = {
-  //publicPath: '',
   publicPath: '/ibaseta_homepage/dist/',
   pluginOptions: {
     i18n: {
