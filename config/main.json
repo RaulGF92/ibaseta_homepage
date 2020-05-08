@@ -3,32 +3,32 @@
     "cameras" : [
         {
             "id": "1",
-            "img" : "./img/pentax_k5_ii_01.jpg",
+            "img" : "https://raulgf92.github.io/ibaseta_homepge/public/img/pentax_k5_ii_01.jpg",
             "url" : "https://www.photographyblog.com/reviews/pentax_k5_ii_review"
         },
         {
             "id": "2",
-            "img" : "./img/pentax_k5_ii_08.jpg",
+            "img" : "https://raulgf92.github.io/ibaseta_homepge/public/img/pentax_k5_ii_08.jpg",
             "url" : "https://www.photographyblog.com/reviews/sigma_dp1s_review"
         },
         {
             "id": "3",
-            "img" : "./img/samsung_nx11_01.jpg",
+            "img" : "https://raulgf92.github.io/ibaseta_homepge/public/img/samsung_nx11_01.jpg",
             "url" : "https://www.photographyblog.com/reviews/samsung_nx11_review"
         },
         {
             "id": "4",
-            "img" : "./img/samsung_nx11_07.jpg",
+            "img" : "https://raulgf92.github.io/ibaseta_homepge/public/img/samsung_nx11_07.jpg",
             "url" : "https://www.photographyblog.com/reviews/samsung_nx11_review"
         },
         {
             "id": "5",
-            "img" : "./img/sigma_dp1s_01.jpg",
+            "img" : "https://raulgf92.github.io/ibaseta_homepge/public/img/sigma_dp1s_01.jpg",
             "url" : "https://www.photographyblog.com/reviews/sigma_dp1s_review"
         },
         {
             "id": "6",
-            "img" : "./img/sigma_dp1s_06.jpg",
+            "img" : "https://raulgf92.github.io/ibaseta_homepge/public/img/sigma_dp1s_06.jpg",
             "url" : "https://www.photographyblog.com/reviews/sigma_dp1s_review"
         }
     ]

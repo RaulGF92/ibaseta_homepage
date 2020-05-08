@@ -8,7 +8,7 @@
         <br>
         <carousel class="carrousel" autoplay>
         <slide v-for="camera in getCameras" :key="camera.id">
-            <img :src="getImg(camera.img)" @click="onClick(camera)"/>
+            <img :src="camera.img" @click="onClick(camera)"/>
         </slide>
         </carousel>
     </div>
