@@ -2,10 +2,10 @@
   <div id="app">
     <home-page></home-page>
     <main class="main">
-      <social-media />
-      <album></album>
-      <contact-info />
-      <camera-carrousel />
+      <social-media id="social_media"/>
+      <album id="album"></album>
+      <contact-info id="contact" />
+      <camera-carrousel id="cameras"/>
     </main>
     <footer-page></footer-page>
   </div>
@@ -35,7 +35,10 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+}
+a {
+  color: inherit !important;
 }
 
 :root {

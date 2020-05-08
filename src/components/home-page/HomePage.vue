@@ -9,7 +9,12 @@ export default {
             url : mainJson.portada_imagen
         }
     },
-    computed: {}
+    computed: {},
+    methods: {
+        onNovedadesClick() {
+            window.open("https://www.flickr.com/photos/ibaseta2/albums/72157656150903658","_blank")
+        }
+    }
 }
 </script>
 <style lang="scss" src="./styles.scss"  scoped></style>

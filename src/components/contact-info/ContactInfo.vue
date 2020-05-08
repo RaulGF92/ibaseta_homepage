@@ -55,7 +55,7 @@ export default {
 
                 svg {
                     font-size: 2.5rem;
-                    color: var(--thirdy-color)
+                    color: var(--thirdy-color) !important;
                 }
 
                 * {

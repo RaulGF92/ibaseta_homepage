@@ -5,9 +5,9 @@
                 <div class="inner">
                     <label>Mapa Sitio</label>
                     <ul>
-                        <li>Fotografias</li>
-                        <li>Camara</li>
-                        <li>Contacto</li>
+                        <li><a href="#album">Fotografias</a></li>
+                        <li><a href="#cameras">Mis Cámaras</a></li>
+                        <li><a href="#contact">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -93,6 +93,13 @@ export default {
                 }
             }
 
+        }
+
+        a {
+          text-decoration: none;
+          &:hover {
+              text-decoration: underline;
+          }
         }
     }
 </style>
