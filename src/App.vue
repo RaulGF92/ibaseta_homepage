@@ -42,6 +42,9 @@ export default {
   --primary-color: white;
   --secondary-color: #2f2f2f;
   --thirdy-color: #CFB53B;
+
+  --contact-info-height: 250px;
+  --footer-page-height: 200px;
 }
 
 #app {
@@ -69,12 +72,17 @@ body {
     background-color: var(--secondary-color);
     min-height: 25vh;
   }
+  .contact-info {
+    background-color: var(--secondary-color);
+    min-height: var(--contact-info-height);
+    max-height: var(--contact-info-height);
+  }
 }
 
 .footer-page {
   flex: 1;
-  min-height: 200px;
-  max-height: 300px;
+  min-height: var(--footer-page-height);
+  max-height: var(--footer-page-height);
   background-color: var(--secondary-color);
 }
 

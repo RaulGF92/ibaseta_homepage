@@ -1,5 +1,10 @@
 {
     "portada_imagen" : "//live.staticflickr.com/65535/49511061106_f5087d2be5_k.jpg",
+    "datos-personales" : {
+        "nombre": "Nombre Apellido Apellido", 
+        "telefono" : "652438090",
+        "email": "alfeiba@telecable.es"
+    },
     "cameras" : [
         {
             "id": "1",
