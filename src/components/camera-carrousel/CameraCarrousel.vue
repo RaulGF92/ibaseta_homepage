@@ -59,6 +59,10 @@ export default {
             align-content: space-between;
             align-items: center;
         }
+
+        @media(max-width:1000px) {
+            //margin: 1rem auto;
+        }
     }
 
 </style>

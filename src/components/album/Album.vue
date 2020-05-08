@@ -46,4 +46,10 @@ export default {
             }
         }
     }
+
+    @media(max-width:1000px) {
+     .album .album-grid {
+         grid-template-columns: repeat(1, 1fr);
+     }
+    }
 </style>

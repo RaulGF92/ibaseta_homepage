@@ -102,4 +102,24 @@ export default {
           }
         }
     }
+
+    @media(max-width:1000px) {
+        .footer-page  { 
+            max-height: unset;
+            &_inner {
+                flex-direction: column;
+
+                .left .inner {
+                    margin: 1rem auto;
+                    width: 85%;
+                    float: inherit;
+                }
+
+                .right {
+                    border-left: none;
+                    border-top: 1px solid var(--thirdy-color);
+                }
+            }
+        }
+    }
 </style>

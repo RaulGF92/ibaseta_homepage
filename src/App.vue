@@ -47,7 +47,15 @@ a {
   --thirdy-color: #CFB53B;
 
   --contact-info-height: 250px;
+  --contact-info-height-iframe: 250px;
   --footer-page-height: 200px;
+  --social-media-height: 25vh;
+
+  @media(max-width:1000px) {
+    --social-media-height: 20vh;
+    --contact-info-height: 300px;
+    --contact-info-height-iframe: 150px;
+  }
 }
 
 #app {
@@ -73,7 +81,7 @@ body {
 
   .social-media {
     background-color: var(--secondary-color);
-    min-height: 25vh;
+    min-height: var(--socal-media-height);
   }
   .contact-info {
     background-color: var(--secondary-color);

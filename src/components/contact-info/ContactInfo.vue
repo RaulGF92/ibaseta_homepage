@@ -74,4 +74,23 @@ export default {
         height: 100%;
         min-height: var(--contact-info-height);
     }
+
+    @media(max-width:1000px) {
+        .contact-info {
+            flex-direction: column;
+
+            &-left {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            &-right {
+                overflow: hidden;
+            }
+
+            iframe {
+                max-height: var(--contact-info-height-iframe);
+            }
+        }
+    }
 </style>
