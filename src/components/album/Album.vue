@@ -37,7 +37,7 @@ export default {
         }
         
         .album-grid {
-            transform: translateY(-4rem);
+            transform: translateY(-40px);
             display: grid;
             grid-template-columns: repeat(4, 1fr);
 

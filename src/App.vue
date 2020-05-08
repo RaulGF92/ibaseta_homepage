@@ -33,6 +33,11 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 :root {
   --primary-color: white;
   --secondary-color: #2f2f2f;
@@ -52,8 +57,8 @@ body {
 
 .home-page {
   flex: 1;
-  min-height: 95vh;
-  max-height: 95vh;
+  min-height: 100vh;
+  max-height: 100vh;
   background-color: var(--secondary-color);
 }
 
