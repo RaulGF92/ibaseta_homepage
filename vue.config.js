@@ -1,5 +1,6 @@
 module.exports = {
-  publicPath: './',
+  //publicPath: '',
+  publicPath: '/ibaseta_homepge/dist/',
   pluginOptions: {
     i18n: {
       locale: 'es',
