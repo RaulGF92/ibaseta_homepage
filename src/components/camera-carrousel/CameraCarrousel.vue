@@ -1,7 +1,7 @@
 <template>
     <div class="camera-carrousel">
         <div class="header">
-            <h1>Mis Camaras</h1>
+            <h1>Mis Cámaras</h1>
             <div style="min-width:20px;" />
             <sub style="color: lightgray;">( Pulsa sobre ellas para conocer la especificación )</sub>
         </div>

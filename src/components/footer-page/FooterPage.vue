@@ -15,7 +15,7 @@
                 <ul>
                     <li>@{{nombre}} 2020</li>
                     <li>License MIT</li>
-                    <li>Powered by <a href="https://raulgf92.github.io/homepage/">@raulg92</a></li>
+                    <li>Powered by <a href="https://raulgf92.github.io/homepage/">@raulgf92</a></li>
                 </ul>
             </div>
         </div>

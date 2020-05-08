@@ -40,14 +40,15 @@ export default {
         &_inner {
             position: relative;
             overflow: hidden;
-            background-color: red;
+            background-color: var(--secondary-color,#fff);
             margin: auto;
             width: 85%;
             height: 90%;
+            max-height: 200px;
 
             img {
                 width: 100%;
-                height: auto;
+                height: 100%;
             }
 
             .title {
