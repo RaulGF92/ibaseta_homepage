@@ -142,5 +142,55 @@
         nav .menu-desktop {
             display: none;
         }
+
+        .mobile_menu {
+            position: sticky;
+            color: var(--secondary-color);
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 99;
+            background-color: var(--thirdy-color);
+            padding: 5vh 0;
+
+            .close-menu {
+                position: absolute;
+                top: 1rem;
+                right: 2.5rem;
+                font-size: 2.5rem;
+                color: lightgray;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            &_inner {
+                margin: auto;
+                width: 80%;
+
+                .menu-list {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 1.5rem 0;
+                }
+
+                .menu-list-item {
+                    font-size: 2.5rem;
+                    text-align: center;
+                    margin: 1rem 0;
+
+                    a {
+                        text-decoration: unset;
+                    }
+                    
+
+                    &:active {
+                        color: white;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
     }
 }

@@ -6,13 +6,18 @@ export default {
     name: 'HomePage',
     data() {
         return {
-            url : mainJson.portada_imagen
+            url : mainJson.portada_imagen,
+            showMenu: false
         }
     },
     computed: {},
     methods: {
         onNovedadesClick() {
             window.open("https://www.flickr.com/photos/ibaseta2/albums/72157656150903658","_blank")
+        },
+        goTo(path) {
+            this.showMenu = false
+            window.location = path
         }
     }
 }

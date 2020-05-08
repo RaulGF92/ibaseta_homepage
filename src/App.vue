@@ -64,9 +64,12 @@ a {
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
+
 body {
   margin: unset;
+  overflow-x: hidden;
 }
 
 .home-page {
