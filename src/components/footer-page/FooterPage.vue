@@ -13,7 +13,7 @@
             </div>
             <div class="right">
                 <ul>
-                    <li>@{{nombre}} 2020</li>
+                    <li>@{{datosPersonales.nombre}} 2020</li>
                     <li>License MIT</li>
                     <li>Powered by <a href="https://raulgf92.github.io/homepage/">@raulgf92</a></li>
                 </ul>
@@ -22,11 +22,13 @@
     </div>
 </template>
 <script>
+import mainJson from '../../../config/main.json'
+
 export default {
     name: 'FooterPage',
     data(){
         return {
-            nombre: 'Nombre Apellidos Apellidos'
+            datosPersonales: mainJson["datos-personales"]
         }
     }
 }

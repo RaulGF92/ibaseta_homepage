@@ -5,6 +5,11 @@
         "telefono" : "652438090",
         "email": "alfeiba@telecable.es"
     },
+    "boton-principal" : {
+        "titulo" : "Novedades",
+        "descripcion" : "Álbumes fotográficos",
+        "url": "https://www.flickr.com/photos/ibaseta2/albums/72157656150903658"
+    },
     "cameras" : [
         {
             "id": "1",

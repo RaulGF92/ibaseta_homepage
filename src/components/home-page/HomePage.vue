@@ -7,13 +7,17 @@ export default {
     data() {
         return {
             url : mainJson.portada_imagen,
-            showMenu: false
+            showMenu: false,
+            name: mainJson["datos-personales"].nombre,
+            phone: mainJson["datos-personales"].telefono,
+            emai: mainJson["datos-personales"].email,
+            botonPrincipal: mainJson["boton-principal"]
         }
     },
     computed: {},
     methods: {
         onNovedadesClick() {
-            window.open("https://www.flickr.com/photos/ibaseta2/albums/72157656150903658","_blank")
+            window.open(this.botonPrincipal.url,"_blank")
         },
         goTo(path) {
             this.showMenu = false
