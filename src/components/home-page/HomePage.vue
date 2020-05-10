@@ -10,7 +10,7 @@ export default {
             showMenu: false,
             name: mainJson["datos-personales"].nombre,
             phone: mainJson["datos-personales"].telefono,
-            emai: mainJson["datos-personales"].email,
+            email: mainJson["datos-personales"].email,
             botonPrincipal: mainJson["boton-principal"]
         }
     },

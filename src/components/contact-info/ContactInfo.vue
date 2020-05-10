@@ -4,12 +4,12 @@
             <div class="contact-info-left_inner">
                     <div class="contact-item">
                         <i class="fas fa-phone-square"></i>
-                        <span>689235456</span>
+                        <span>{{phone}}</span>
                     </div>
                     <br />
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
-                        <span>alfeiba@telecable.es</span>
+                        <span>{{email}}</span>
                     </div>
             </div>
         </div>
@@ -21,8 +21,16 @@
     </div>
 </template>
 <script>
+import mainJson from '../../../config/main.json'
+
 export default {
-    name: 'ContactInfo'
+    name: 'ContactInfo',
+    data() {
+        return {
+            phone: mainJson["datos-personales"].telefono,
+            email: mainJson["datos-personales"].email
+        }
+    },
 }
 </script>
 <style lang="scss" scoped>

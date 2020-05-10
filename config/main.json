@@ -10,6 +10,11 @@
         "descripcion" : "Álbumes fotográficos",
         "url": "https://www.flickr.com/photos/ibaseta2/albums/72157656150903658"
     },
+    "redes-sociales": {
+        "facebook" : "https://www.facebook.com/ibaseta2",
+        "flickr": "https://www.flickr.com/photos/ibaseta2/" ,
+        "youtube" : "https://www.youtube.com/channel/UCGaj_HVworwZn-P511NTB4w?view_as=subscriber"
+    },
     "cameras" : [
         {
             "id": "1",
